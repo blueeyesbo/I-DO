@@ -15,6 +15,20 @@
       "when": 1752591962299,
       "tag": "0001_living_peter_quill",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1752688812953,
+      "tag": "0002_fat_the_fury",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1752689094260,
+      "tag": "0003_plain_arachne",
+      "breakpoints": true
     }
   ]
 }
