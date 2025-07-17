@@ -22,6 +22,11 @@ app.use("/api/importantDates", importantDatesRouter);
 app.use("/api/calendarEvents", calendarEventsRouter);
 app.use("/api/userSettings", userSettingsRouter);
 
+app.get("/", (req, res) => {
+    res.send("Welcome to the API");
+    console.log("Welcome to the API");
+});
+
 app.listen(ENV.PORT, () => {
     console.log(`Server is running on port ${ENV.PORT}`);
 });
