@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors";
 import { ENV } from "./config/env.js";
 import todoRouter from "./router/todo.js";
 import userRouter from "./router/user.js";
@@ -11,6 +12,7 @@ import userSettingsRouter from "./router/usersettings.js";
 
 const app = express();
 
+app.use(cors());
 app.use(express.json());
 
 app.use("/api/todo", todoRouter);
